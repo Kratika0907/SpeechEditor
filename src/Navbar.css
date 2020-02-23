@@ -1,0 +1,29 @@
+.Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border:1px solid;
+  }
+  .Navbar li {
+      border-bottom: 1px solid;
+  }
+  li:last-child{
+      border : none;
+  }
+  
+  .Navbar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: left;
+    
+  }
+  
+  /* Change the link color on hover */
+  .Navbar li a:hover {
+    background-color: #555;
+    color: white;
+  }
